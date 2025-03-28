@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body  class="h-screen w-full flex items-center justify-center bg-black">
+    <div class="bg-white w-200 h-150 p-20">
+        <div>
+            <h1 class="text-6xl ml-60 font-bold">Login</h1>
+        </div>
+
+        <div class="mt-20 text-white">
+
+            <input type="email" name="" id="e-mail" class="bg-gray-700 w-150 h-10 p-3 rounded-md" placeholder="E-mail">
+
+            <input type="password" name="" id="pass" class="bg-gray-700 w-150 mt-5 h-10 p-3 rounded-md" placeholder="Senha">
+
+            <p class="text-black mt-3 hover:text-sky-500 cursor-pointer">Esqueceu a senha?</p>
+
+            <div class="mt-10">
+
+                <input type="button" value="Entrar" class="bg-cyan-700 h-9 w-20 text-center hover:bg-slate-800 rounded-md cursor-pointer font-bold " onclick="login()">
+
+                <input type="button" value="Cadastrar" class="bg-cyan-700 ml-4 h-8 w-30 text-center hover:bg-slate-800 rounded-md cursor-pointer font-bold" onclick="redirecionar()">
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
