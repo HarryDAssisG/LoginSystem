@@ -40,3 +40,25 @@ function login() {
     }
 }
 
+////// Pagina 2
+
+ function register(){
+
+    let name1 = document.getElementById("name1").value
+    let email1 = document.getElementById("email1").value
+    let email2 = document.getElementById("email2").value
+    let password1 = document.getElementById("password1").value
+
+    if (name1 == '' || email1 == '' || email2 == '' || password1 == ''){
+        alert("Algo faltando")
+    }
+    else if(email1 !='@'){
+        alert("Falta @")
+    }
+    else (
+        alert("Cadastrado")
+    )
+
+
+
+ }

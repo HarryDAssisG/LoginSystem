@@ -6,8 +6,8 @@
     <title>Register</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="h-screen w-full flex items-center justify-center bg-black">
-    <div class="bg-white w-200 h-150">
+<body class="h-screen w-full flex items-center justify-center bg-[url(/wallpaper/img.jpg)] ">
+    <div class="bg-white w-200 h-150 rounded-md">
 
         <div class="ml-25 mt-10">
             <h1 class="text-6xl ml-50 font-bold">Register</h1>
@@ -15,18 +15,18 @@
 
         <div class="ml-25 mt-10 text-white">
 
-            <input type="text" name="" id="e-mail" class="bg-gray-700 w-150 h-10 p-3 rounded-md mt-10" placeholder="Nome">
+            <input type="text" name="" id="name1" class="bg-gray-700 w-150 h-10 p-3 rounded-md mt-10" placeholder="Nome">
 
-            <input type="email" name="" id="e-mail" class="bg-gray-700 w-150 h-10 p-3 rounded-md mt-5" placeholder="E-mail">
+            <input type="email" name="" id="email1" class="bg-gray-700 w-150 h-10 p-3 rounded-md mt-5" placeholder="E-mail">
 
-            <input type="password" name="" id="e-mail" class="bg-gray-700 w-150 h-10 p-3 rounded-md mt-5" placeholder="Confirmação do e-mail">
+            <input type="password" name="" id="email2" class="bg-gray-700 w-150 h-10 p-3 rounded-md mt-5" placeholder="Confirmação do e-mail">
 
-            <input type="password" name="" id="e-mail" class="bg-gray-700 w-150 h-10 p-3 rounded-md mt-5" placeholder="Senha">
+            <input type="password" name="" id="password1" class="bg-gray-700 w-150 h-10 p-3 rounded-md mt-5" placeholder="Senha">
 
 
             <div class="mt-10">
 
-                <input type="button" value="Finalizar" class="bg-green-600 h-9 w-20 text-center hover:bg-slate-800 rounded-md cursor-pointer font-bold">
+                <input type="button" value="Finalizar" class="bg-green-600 h-9 w-20 text-center hover:bg-slate-800 rounded-md cursor-pointer font-bold" onclick="register()">
 
                 <input type="button" value="Voltar" class="bg-cyan-700 ml-4 h-8 w-30 text-center hover:bg-slate-800 rounded-md cursor-pointer font-bold" onclick="returnx()">
 
